@@ -1,6 +1,6 @@
 <?php
 require_once __DIR__ . '/helpers/Db.php';
-use App\helpers\Db as DB;
+use App\helpers\DB;
 $dbh = DB::getInstance()->getConnection();
 try {
   $dbh->query('CREATE TABLE IF NOT EXISTS users(

@@ -11,6 +11,7 @@ class Db {
       }
       return static::$instance;
   }
+
   public function getConnection() {
     if ($this->connection) {
       return $this->connection;
