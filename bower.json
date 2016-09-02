@@ -1,0 +1,26 @@
+{
+  "name": "php_charts",
+  "description": "Simple project with charts",
+  "main": "",
+  "keywords": [
+    "charts",
+    "php"
+  ],
+  "authors": [
+    "boozz"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "highcharts": "hightcharts#^4.2.6",
+    "bootstrap": "^3.3.7"
+  }
+}
